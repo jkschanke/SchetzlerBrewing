@@ -2,13 +2,27 @@
     PageData["title"] = "AngularJS SPA Template for Visual Studio";
 }
 <div>
-    <h2>Welcome!</h2>
-    <p>This is just a demo page.</p>
-    {{beers}}
+    
+    <div>
+        <h2>Left Tap</h2>
+        <beer info="leftTap"/>
+    </div>
+    <div>
+        <h2>Middle Tap</h2>
+        <beer info="middleTap" />
+    </div>
+    <div >
+        <h2>Right Tap</h2>
+        <beer info="rightTap"/>
+    </div>
+
+    <h2>Bottles</h2>
+
     <ul>
-        <li ng-repeat="beer in beers">
-            <h2>{{beer.name}}</h2>
-            <span>{{beer.description}}</span>
+        <li ng-repeat="bottle in bottles">
+            <beer info="bottle"/>
+            
+
 
         </li>
     </ul>

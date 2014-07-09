@@ -6,4 +6,15 @@ angular.module('app.directives', [])
         return function (scope, elm, attrs) {
             elm.text(version);
         };
-    }]);
+
+    }])
+
+    .directive('beer', function () {
+        return {
+            scope: {
+                beer: '=info'
+            },
+            restrict: 'E',
+            templateUrl: 'Views/BeerItem.html'
+        }
+    });

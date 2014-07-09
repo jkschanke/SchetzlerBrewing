@@ -125,7 +125,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\app.min.css">
+      <DependentUpon>app.css</DependentUpon>
+    </Content>
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\variables.css">
+      <DependentUpon>variables.less</DependentUpon>
+    </Content>
+    <Content Include="Content\variables.min.css">
+      <DependentUpon>variables.css</DependentUpon>
+    </Content>
     <Content Include="favicon.ico" />
     <Content Include="Content\jasmine\jasmine.css" />
     <Content Include="Content\jasmine\jasmine_favicon.png" />
@@ -133,7 +142,7 @@
       <DependentUpon>app.less</DependentUpon>
     </Content>
     <Content Include="Content\app.less" />
-    <Content Include="Content\variables.less" />
+    <Content Include="Content\variables1.less" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\controllers.js" />
     <Content Include="Scripts\controllers.spec.js">
@@ -472,6 +481,10 @@
     <Content Include="Content\bootstrap\bootstrap.less" />
     <Content Include="Content\bootstrap\badges.less" />
     <Content Include="Content\bootstrap\alerts.less" />
+    <Content Include="Content\variables.less" />
+    <Content Include="Content\app.css.map">
+      <DependentUpon>app.css</DependentUpon>
+    </Content>
     <None Include="Scripts\vendor\jquery-2.0.3.intellisense.js" />
     <Content Include="Scripts\vendor\jquery-2.0.3.js" />
     <Content Include="Scripts\vendor\jquery-2.0.3.min.js" />
@@ -495,6 +508,7 @@
     <Content Include="Views\_PageStart.cshtml" />
     <Content Include="Views\About.cshtml" />
     <Content Include="Views\Details.cshtml" />
+    <Content Include="Views\BeerItem.html" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -8,7 +8,15 @@ angular.module('app.controllers', [])
     // Path: /
     .controller('HomeCtrl', ['$scope', '$location', '$window', 'beerData', function ($scope, $location, $window, beerData) {
         $scope.$root.title = 'Schetzler Brewing';
-        $scope.beers = beerData;
+        $scope.bottles = beerData.bottles;
+        $scope.rightTap = beerData.rightTap;
+        $scope.middleTap = beerData.middleTap;
+        $scope.leftTap = beerData.leftTap;
+
+        $scope.calculateABV = function (originalGravity, finalGravity) {
+            return (originalGravity - finalGravity) * 131;
+        }
+
 
         $scope.$on('$viewContentLoaded', function () {
             $window.ga('send', 'pageview', { 'page': $location.path(), 'title': $scope.$root.title });
@@ -18,15 +26,6 @@ angular.module('app.controllers', [])
     // Path: /details
     .controller('DetailsCtrl', ['$scope', '$location', '$window', function ($scope, $location, $window) {
         $scope.$root.title = 'Schetzler Brewing | Details';
-        $scope.$on('$viewContentLoaded', function () {
-            $window.ga('send', 'pageview', { 'page': $location.path(), 'title': $scope.$root.title });
-        });
-    }])
-
-    // Path: /about
-    .controller('AboutCtrl', ['$scope', '$location', '$window', function ($scope, $location, $window) {
-        $scope.$root.title = 'Schetzler Brewing | About';
-
         $scope.$on('$viewContentLoaded', function () {
             $window.ga('send', 'pageview', { 'page': $location.path(), 'title': $scope.$root.title });
         });
