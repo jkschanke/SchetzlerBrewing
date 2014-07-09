@@ -22,12 +22,6 @@ angular.module('app', ['ui.router', 'app.filters', 'app.services', 'app.directiv
                 templateUrl: '/views/about',
                 controller: 'AboutCtrl'
             })
-            .state('login', {
-                url: '/login',
-                layout: 'basic',
-                templateUrl: '/views/login',
-                controller: 'LoginCtrl'
-            })
             .state('otherwise', {
                 url: '*path',
                 templateUrl: '/views/404',
