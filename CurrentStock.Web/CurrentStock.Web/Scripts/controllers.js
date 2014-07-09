@@ -6,8 +6,10 @@
 angular.module('app.controllers', [])
 
     // Path: /
-    .controller('HomeCtrl', ['$scope', '$location', '$window', function ($scope, $location, $window) {
+    .controller('HomeCtrl', ['$scope', '$location', '$window', 'beerData', function ($scope, $location, $window, beerData) {
         $scope.$root.title = 'Schetzler Brewing';
+        $scope.beers = beerData;
+
         $scope.$on('$viewContentLoaded', function () {
             $window.ga('send', 'pageview', { 'page': $location.path(), 'title': $scope.$root.title });
         });

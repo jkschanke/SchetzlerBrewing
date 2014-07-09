@@ -1,6 +1,15 @@
 ﻿@{
     PageData["title"] = "AngularJS SPA Template for Visual Studio";
 }
-<h2>Welcome!</h2>
-<p>This is just a demo page.</p>
+<div>
+    <h2>Welcome!</h2>
+    <p>This is just a demo page.</p>
+    {{beers}}
+    <ul>
+        <li ng-repeat="beer in beers">
+            <h2>{{beer.name}}</h2>
+            <span>{{beer.description}}</span>
 
+        </li>
+    </ul>
+</div>
