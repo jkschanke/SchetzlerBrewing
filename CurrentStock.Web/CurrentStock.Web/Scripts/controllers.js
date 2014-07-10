@@ -15,7 +15,7 @@ angular.module('app.controllers', [])
 
         $scope.calculateABV = function (originalGravity, finalGravity) {
             return (originalGravity - finalGravity) * 131;
-        }
+        };
 
 
         $scope.$on('$viewContentLoaded', function () {
