@@ -14,11 +14,11 @@ angular.module('app.directives', [])
             scope: {
                 beer: '=info'
             },
-            //controller: function($scope){
-            //    $scope.calculateABV = function (originalGravity, finalGravity) {
-            //        return (originalGravity - finalGravity) * 131;
-            //    }
-            //},
+            controller: function($scope){
+                $scope.calculateABV = function (originalGravity, finalGravity) {
+                    return (originalGravity - finalGravity) * 131;
+                };
+            },
             restrict: 'E',
             templateUrl: 'Views/BeerItem.html'
         };

@@ -13,9 +13,9 @@ angular.module('app.controllers', [])
         $scope.middleTap = beerData.middleTap;
         $scope.leftTap = beerData.leftTap;
 
-        $scope.calculateABV = function (originalGravity, finalGravity) {
-            return (originalGravity - finalGravity) * 131;
-        };
+        //$scope.calculateABV = function (originalGravity, finalGravity) {
+        //    return (originalGravity - finalGravity) * 131;
+        //};
 
 
         $scope.$on('$viewContentLoaded', function () {
