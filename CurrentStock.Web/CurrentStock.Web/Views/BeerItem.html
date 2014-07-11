@@ -1,12 +1,19 @@
-﻿<div>
-    <img ng-src="{{beer.icon}}" />
-    <h3>{{beer.name}}</h3>
+﻿<div class="beer-item">
+    <div class="header">
+        <img class="logo" ng-src="{{beer.icon}}" />
+        <h2>{{beer.name}}</h2>
+    </div>
+
     <span>{{beer.description}}</span>
-    <div>
-        <p>Brew Date: {{beer.brewDate}}</p>
-        <p>ABV: {{(beer.originalGravity - beer.finalGravity) * 131 | number : 1}}  %</p>
-        <p>OG: {{beer.originalGravity | number : 3}}</p>
-        <p>FG: {{beer.finalGravity | number : 3}}</p>
-        <p>IBUs: {{beer.ibu}}</p>
+
+    <div style="margin-top: 10px">
+        <span>Brew Date: {{beer.brewDate}}</span>
+        <br />
+        <span>ABV: {{(beer.originalGravity - beer.finalGravity) * 131 | number : 1}}  %</span>
+        <br />
+        <span>OG: {{beer.originalGravity | number : 3}}</span>
+        <span>FG: {{beer.finalGravity | number : 3}}</span>
+        <br />
+        <span>IBUs: {{beer.ibu}}</span>
     </div>
 </div>
