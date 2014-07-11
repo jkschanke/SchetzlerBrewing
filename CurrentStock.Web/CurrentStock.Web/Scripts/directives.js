@@ -12,13 +12,8 @@ angular.module('app.directives', [])
     .directive('beer', function () {
         return {
             scope: {
-                beer: '=info'
+                beer: '='
             },
-            //controller: function($scope){
-            //    $scope.calculateABV = function (originalGravity, finalGravity) {
-            //        return (originalGravity - finalGravity) * 131;
-            //    }
-            //},
             restrict: 'E',
             templateUrl: 'Views/BeerItem.html'
         };

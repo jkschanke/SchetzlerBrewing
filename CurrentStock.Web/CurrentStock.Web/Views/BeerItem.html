@@ -4,7 +4,7 @@
     <span>{{beer.description}}</span>
     <div>
         <p>Brew Date: {{beer.brewDate}}</p>
-        <p>ABV: {{calculateABV(beer.originalGravity, beer.finalGravity) | number : 1}}  %</p>
+        <p>ABV: {{(beer.originalGravity - beer.finalGravity) * 131 | number : 1}}  %</p>
         <p>OG: {{beer.originalGravity | number : 3}}</p>
         <p>FG: {{beer.finalGravity | number : 3}}</p>
         <p>IBUs: {{beer.ibu}}</p>
