@@ -8,7 +8,16 @@
 
     <div style="margin-top: 10px">
         <span>Brew Date: {{beer.brewDate}}</span>
-        <br />
+        <br ng-show="beer.capCodes" />
+        <div class="cap-codes" ng-show="beer.capCodes">
+            
+            <span>Cap Codes:</span>
+            <ul ng-repeat="capCode in beer.capCodes">
+                <li>
+                    <span>{{capCode}}</span>
+                </li>
+            </ul>
+        </div>
         <span>ABV: {{(beer.originalGravity - beer.finalGravity) * 131 | number : 1}}  %</span>
         <br />
         <span>OG: {{beer.originalGravity | number : 3}}</span>
@@ -16,4 +25,5 @@
         <br />
         <span>IBUs: {{beer.ibu}}</span>
     </div>
+    <br />
 </div>

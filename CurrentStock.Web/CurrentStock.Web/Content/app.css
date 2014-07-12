@@ -5986,4 +5986,9 @@ td.visible-print {
 .beer-item {
   margin-left: 50px;
 }
+.cap-codes {
+  margin-top: 0;
+  margin-bottom: 0;
+  -webkit-padding-start: 0;
+}
 /*# sourceMappingURL=app.css.map */
