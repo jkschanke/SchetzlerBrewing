@@ -14,11 +14,11 @@ angular.module('app.services', [])
         ]
             
         instance.leftTap = {
-            name: 'Speckled Heifer', style: 'American Pale Ale', type: 'Partial Mash', brewDate: '05/10/14', originalGravity: 1.042, finalGravity: 1.008, description: 'A tranquil time-out in a pint glass, a pastoral idyll, a sociable session ale dairyland-style: hey, sometimes a beer is just a beer. Have one.', icon: '/content/images/speckledheifer.jpg', ibu: 22
+            name: 'Le Petite Orange', style: 'Belgian Dubbel', type: 'Extract', brewDate: 'July 2014', originalGravity: 1.052, finalGravity: 1.012, description: 'A Belgian Dubbel without the deep dark chocolate maltiness, the Orangé is rich with caramel sweetness and a full body. We added some coriander and orange peel for some extra punch.', icon: '/content/images/lepetiteorange.jpg', ibu: 19
         }
 
         instance.middleTap = {
-            name: 'Patersbier', style: 'Belgian Trappist', type: 'Extract', brewDate: '05/09/14', originalGravity: 1.040, finalGravity: 1.010, description: 'Made only from pilsner malt, hops, and yeast, the complexity that results from these simple ingredients is staggering: perfumey floral hops, ripe pear fruit, sour apple, spicy cloves, candied citrus and a slight biscuit character on the drying finish ... a monk\'s session beer.', icon: '/content/images/patersbier.jpg', ibu: 47
+            name: 'Gojira Peppered Pale Ale', style: 'American Pale Ale', type: 'Extract', brewDate: 'July 2014', originalGravity: 1.052, finalGravity: 1.012, description: 'Not the fire-breathing monster you would expect, this beer is a fun, friendly, fruity American Pale Ale with a light malt backbone that expresses the tremendous fruit flavors from Aji Amarillo peppers and a combo of Citra® and Amarillo® hops. The finish is refreshingly dry with just a hint of spice from the peppers that warms your palate and invites another sip.', icon: '/content/images/gojira.jpg', ibu: 12
         }
 
         instance.rightTap = {
