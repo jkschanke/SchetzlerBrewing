@@ -18,7 +18,7 @@ angular.module('app.services', [])
         }
 
         instance.middleTap = {
-            name: 'Gojira Peppered Pale Ale', style: 'American Pale Ale', type: 'Extract', brewDate: 'July 2014', originalGravity: 1.052, finalGravity: 1.012, description: 'Not the fire-breathing monster you would expect, this beer is a fun, friendly, fruity American Pale Ale with a light malt backbone that expresses the tremendous fruit flavors from Aji Amarillo peppers and a combo of Citra® and Amarillo® hops. The finish is refreshingly dry with just a hint of spice from the peppers that warms your palate and invites another sip.', icon: '/content/images/gojira.jpg', ibu: 12
+            name: 'Gojira Peppered Pale Ale', style: 'American Pale Ale', type: 'Extract', brewDate: '07/07/2014', originalGravity: 1.052, finalGravity: 1.012, description: 'Not the fire-breathing monster you would expect, this beer is a fun, friendly, fruity American Pale Ale with a light malt backbone that expresses the tremendous fruit flavors from Aji Amarillo peppers and a combo of Citra® and Amarillo® hops. The finish is refreshingly dry with just a hint of spice from the peppers that warms your palate and invites another sip.', icon: '/content/images/gojira.jpg', ibu: 12
         }
 
         instance.rightTap = {
