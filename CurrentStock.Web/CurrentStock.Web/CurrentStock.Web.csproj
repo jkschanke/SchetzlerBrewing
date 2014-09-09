@@ -134,9 +134,8 @@
     <Content Include="Content\Images\gojira.jpg" />
     <Content Include="Content\Images\holidayred.jpg" />
     <Content Include="Content\Images\lepetiteorange.jpg" />
-    <Content Include="Content\Images\patersbier.jpg" />
+    <Content Include="Content\Images\milkstout.jpg" />
     <Content Include="Content\Images\saison.jpg" />
-    <Content Include="Content\Images\smashingpumpkin.jpg" />
     <Content Include="Content\variables.css">
       <DependentUpon>variables.less</DependentUpon>
     </Content>
