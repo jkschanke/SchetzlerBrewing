@@ -26,3 +26,13 @@ angular.module('app.services', [])
 
         return instance;
     })
+    .factory('boardGamesData', function ($http) {
+        var usernames = ['jkschanke', 'dmetzler2012'];
+
+
+
+        return $http.get('http://bgg-json.azurewebsites.net/collection/jkschanke?grouped=true')
+            .then(function (data) {
+                return data.data;
+            })
+    })

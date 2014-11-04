@@ -17,4 +17,13 @@ angular.module('app.directives', [])
             restrict: 'E',
             templateUrl: 'Views/BeerItem.html'
         };
+    })
+    .directive('boardgame', function () {
+        return {
+            scope: {
+                game: '='
+            },
+            restrict: 'E',
+            templateUrl: 'Views/BoardGame.html'
+        };
     });

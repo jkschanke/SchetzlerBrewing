@@ -18,6 +18,15 @@ angular.module('app.controllers', [])
         });
     }])
 
+    .controller('BoardGamesCtrl', ['$scope', '$location', '$window', 'boardGamesData', function ($scope, $location, $window, boardGameData) {
+        $scope.$root.title = 'Board Games'
+        boardGameData.then(function (data) {
+            $scope.games = data;
+        })
+
+
+    }])
+
     // Path: /details
     .controller('DetailsCtrl', ['$scope', '$location', '$window', function ($scope, $location, $window) {
         $scope.$root.title = 'Schetzler Brewing | Details';

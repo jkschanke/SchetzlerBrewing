@@ -17,10 +17,10 @@ angular.module('app', ['ui.router', 'app.filters', 'app.services', 'app.directiv
                 controller: 'HomeCtrl'
 
             })
-            .state('about', {
-                url: '/about',
-                templateUrl: '/views/about',
-                controller: 'AboutCtrl'
+            .state('boardgames', {
+                url: '/boardgames',
+                templateUrl: '/views/boardgames',
+                controller: 'BoardGamesCtrl'
             })
             .state('otherwise', {
                 url: '*path',
