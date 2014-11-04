@@ -18,7 +18,7 @@ angular.module('app.controllers', [])
         });
     }])
 
-    .controller('BoardGamesCtrl', ['$scope', '$location', '$window', 'boardGamesData', function ($scope, $location, $window, boardGameData) {
+    .controller('BoardGamesCtrl', ['$scope', 'boardGamesData', function ($scope, boardGameData) {
         $scope.$root.title = 'Board Games'
         boardGameData.then(function (data) {
             $scope.games = data;
