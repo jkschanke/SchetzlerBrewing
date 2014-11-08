@@ -7,21 +7,19 @@ angular.module('app.services', [])
         var instance = {};
 
         instance.bottles = [
-            { name: 'Fruity Saison', capCodes: ['SS: Strawberry', 'SC: Cherry', 'SCN: Cranberry'], style: 'Saison/Farmhouse Ale', type: 'Extract', brewDate: 'April 2014', code: 'SS, SC, SCN', originalGravity: 1.041, finalGravity: 1.010, description: 'This session-strength Saison of summer perfumes the air with tangy yeast and pungent hop aromas.', icon: '/content/images/saison.jpg', ibu: 47 },
-            { name: 'Holiday Red', capCodes: ['HR'], style: 'Amber Ale', type: 'Extract', brewDate: 'November 2013', code: 'HR', originalGravity: 1.062, finalGravity: 1.020, description: 'This strong-ish American amber ale is built for the cold: a substantial gravity for snowy weather, but a fast turnaround so you can get some holiday cheer from fermentor to pint ASAP. Malty but not too sweet, just enough bitterness to balance, a definite but not overstated citrus hop profile (bolstered by real citrus!), this is far from your normal holiday ale.', icon: '/content/images/holidayred.jpg', ibu: 29 }
         ]
 
         instance.leftTap = {
-            name: 'West Coast Radical Red Ale', style: 'Amber Ale', type: 'Extract', brewDate: '08/17/2014', originalGravity: 1.055, finalGravity: 1.010, description: 'A gorgeous yet unassuming crimson-colored brew, West Coast Radical Red Ale is strikingly familiar in its smooth, copper body and distinctively American, crisp clean character.', icon: '/content/images/radicalred.jpg', ibu: 75
+            name: 'West Coast Radical Red Ale', style: 'Amber Ale', type: 'Extract', brewDate: '08/17/2014', originalGravity: 1.055, finalGravity: 1.010, description: 'A gorgeous yet unassuming crimson-colored brew, West Coast Radical Red Ale is strikingly familiar in its smooth, copper body and distinctively American, crisp clean character.', icon: '/content/images/radicalred.jpg'
 
         }
 
         instance.middleTap = {
-
+            name: 'Peace Coffee 2nd Crack Stout', style: 'Stout', type: 'Extract', brewDate: '10/08/2014', originalGravity: 1.064, finalGravity: 1.015, description: 'It was love at first whiff. With roasters and brewers united, we crafted a sturdy stout fortified with a blend of light and dark roast coffees from both hemispheres. Smoky and sweet, but packing a powerful punch and just the right balance of rich malt, berry and bittersweet cocoa. Sure, you could brew with any old cuppa joe. Just like you could drink any old beer. But you’re not here to settle, and neither are we. So give Peace a chance and taste for yourself what all the buzz is about!', icon: '/content/images/peacecoffeestout.jpg'
         }
 
         instance.rightTap = {
-            name: 'Mint Chocolate Milk Stout', style: 'Stout', type: 'Extract', brewDate: '08/05/2014', originalGravity: 1.048, finalGravity: 1.022, description: 'A milk stout (brewed with lactose sugar for body and residual sweetness) laced with pure cacao nibs and fresh peppermint in secondary.', icon: '/content/images/milkstout.jpg', ibu: 31
+            name: 'Coming Soon: Smashing Pumpkin Ale', style: 'Amber/Spice Ale', type: 'Extract', brewDate: '10/05/2014', originalGravity: 1.064, finalGravity: 1.014, description: 'The perfect brew for fall, our Smashing Pumpkin Ale recipe is clean and sweetly malty, with just enough hop bitterness to balance. A dose of select spices at the end of the boil imbues the beer with a complex, lingering spice profile full of nutmeg, cinnamon, and ginger that persists from the pour to the last swish in the glass.', icon: '/content/images/smashingpumpkin.jpg'
         }
 
         return instance;
