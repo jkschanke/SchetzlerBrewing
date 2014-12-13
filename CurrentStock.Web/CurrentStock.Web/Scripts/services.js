@@ -10,7 +10,7 @@ angular.module('app.services', [])
         ]
 
         instance.leftTap = {
-            name: 'West Coast Radical Red Ale', style: 'Amber Ale', type: 'Extract', brewDate: '08/17/2014', originalGravity: 1.055, finalGravity: 1.010, description: 'A gorgeous yet unassuming crimson-colored brew, West Coast Radical Red Ale is strikingly familiar in its smooth, copper body and distinctively American, crisp clean character.', icon: '/content/images/radicalred.jpg'
+            
 
         }
 
@@ -19,7 +19,7 @@ angular.module('app.services', [])
         }
 
         instance.rightTap = {
-            name: 'Coming Soon: Smashing Pumpkin Ale', style: 'Amber/Spice Ale', type: 'Extract', brewDate: '10/05/2014', originalGravity: 1.064, finalGravity: 1.014, description: 'The perfect brew for fall, our Smashing Pumpkin Ale recipe is clean and sweetly malty, with just enough hop bitterness to balance. A dose of select spices at the end of the boil imbues the beer with a complex, lingering spice profile full of nutmeg, cinnamon, and ginger that persists from the pour to the last swish in the glass.', icon: '/content/images/smashingpumpkin.jpg'
+            name: 'Smashing Pumpkin Ale', style: 'Amber/Spice Ale', type: 'Extract', brewDate: '10/05/2014', originalGravity: 1.064, finalGravity: 1.014, description: 'The perfect brew for fall, our Smashing Pumpkin Ale recipe is clean and sweetly malty, with just enough hop bitterness to balance. A dose of select spices at the end of the boil imbues the beer with a complex, lingering spice profile full of nutmeg, cinnamon, and ginger that persists from the pour to the last swish in the glass.', icon: '/content/images/smashingpumpkin.jpg'
         }
 
         return instance;
