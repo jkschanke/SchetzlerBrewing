@@ -7,11 +7,11 @@ angular.module('app.services', [])
         var instance = {};
 
         instance.bottles = [
+            { name: 'Lederhosen Hoptoberfest', style: 'Hybrid', type: 'Extract', brewDate: '11/11/2014', originalGravity: 1.060, finalGravity: 1.012, description: 'Created in the spirit of the annual festival in Munich, this hybrid beer is designed to be reminiscent of a traditional Marzen lager but fermented as an ale. The Kolsch yeast will retain a bit of lager character, especially if the fermentation temperature is kept on the low side - 60 to 65F is perfect. The use of Sterling hops provides a smooth bitterness, and just a hint of spicy hop flavor to mingle with this malt forward beer. This is a rapidly maturing beer, so you can enjoy this one a few weeks after brewing, and then ride out the autumn season sipping in style.', icon: '/content/images/lederhosenhoptoberfest.jpg', capCodes: ['H'] }
         ]
 
         instance.leftTap = {
-            
-
+            name: 'Kiwi Express IPA', style: 'IPA', type: 'Extract', brewDate: '11/17/2014', originalGravity: 1.058, finalGravity: 1.011, description: 'Forget what you thought you knew about the flavors of IPA and travel with us to the south seas on the Kiwi Express! This exotic IPA uses only New Zealand hops to celebrate the southern hemisphere harvest!', icon: '/content/images/kiwiexpressipa.jpg'
         }
 
         instance.middleTap = {

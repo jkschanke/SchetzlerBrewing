@@ -129,8 +129,9 @@
       <DependentUpon>app.css</DependentUpon>
     </Content>
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\Images\kiwiexpressipa.jpg" />
+    <Content Include="Content\Images\lederhosenhoptoberfest.jpg" />
     <Content Include="Content\Images\peacecoffeestout.jpg" />
-    <Content Include="Content\Images\radicalred.jpg" />
     <Content Include="Content\Images\smashingpumpkin.jpg" />
     <Content Include="Content\variables.css">
       <DependentUpon>variables.less</DependentUpon>
