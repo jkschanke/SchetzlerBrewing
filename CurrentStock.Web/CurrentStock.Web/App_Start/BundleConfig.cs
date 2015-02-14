@@ -22,6 +22,7 @@ namespace App.CurrentStock.Web
 
             bundles.Add(new ScriptBundle("~/js/app")
                 .Include(
+                "~/scripts/xml2json.js",
                 "~/scripts/vendor/angular-ui-router.js",
                 "~/scripts/filters.js",
                 "~/scripts/services.js",

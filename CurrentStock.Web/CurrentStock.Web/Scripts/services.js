@@ -15,17 +15,25 @@ angular.module('app.services', [])
         }
 
         instance.middleTap = {
-            name: 'Peace Coffee 2nd Crack Stout', style: 'Stout', type: 'Extract', brewDate: '10/08/2014', originalGravity: 1.064, finalGravity: 1.015, description: 'It was love at first whiff. With roasters and brewers united, we crafted a sturdy stout fortified with a blend of light and dark roast coffees from both hemispheres. Smoky and sweet, but packing a powerful punch and just the right balance of rich malt, berry and bittersweet cocoa. Sure, you could brew with any old cuppa joe. Just like you could drink any old beer. But you’re not here to settle, and neither are we. So give Peace a chance and taste for yourself what all the buzz is about!', icon: '/content/images/peacecoffeestout.jpg'
+            name: 'Peat Smoked Porter', style: 'Stout/Porter', type: 'Extract', brewDate: '01/04/2015', originalGravity: 1.062, finalGravity: 1.010, description: 'A midnight-black strong porter with an assertive profile: roasty, bitter, and big with underlying herbal, briny smoke character.', icon: '/content/images/peatsmokedporter.jpg'
         }
 
         instance.rightTap = {
-            name: 'Smashing Pumpkin Ale', style: 'Amber/Spice Ale', type: 'Extract', brewDate: '10/05/2014', originalGravity: 1.064, finalGravity: 1.014, description: 'The perfect brew for fall, our Smashing Pumpkin Ale recipe is clean and sweetly malty, with just enough hop bitterness to balance. A dose of select spices at the end of the boil imbues the beer with a complex, lingering spice profile full of nutmeg, cinnamon, and ginger that persists from the pour to the last swish in the glass.', icon: '/content/images/smashingpumpkin.jpg'
+            name: 'Ginger Snap Saison', style: 'Trappist/Belgian Ale', type: 'Extract', brewDate: '01/05/2015', originalGravity: 1.058, finalGravity: 1.004, description: 'Distinct undertones of Saison funk, exotic notes of verbena and candied ginger evolve into a firestorm of complex, earthy spice. Bursts of citrus peel collide with wild lemongrass and peppery florals in a tumultuous surge of flavor. \nAlight with lemony herbals of Sorachi Ace, the sweet caramelly malt profile offers a pleasant mouthfeel that develops lingering, gingery warmth. Highly carbonated and generously hopped, Ginger Snap finishes dry-yet-smooth with a quenching bite for superb, refreshing drinkability.', icon: '/content/images/gingersnap.jpg'
         }
 
         return instance;
     })
     .factory('boardGamesData', ['$http', function ($http) {
-        return $http.get('http://bgg-json.azurewebsites.net/collection/jkschanke?grouped=true')
+        //https://www.boardgamegeek.com/xmlapi2/collection?username=jkschanke&own=1
+
+
+        return $http.jsonp('https://www.boardgamegeek.com/xmlapi2/collection?username=jkschanke&own=1&callback=JSON_CALLBACK', {
+            transformResponse: function (data) {
+                var x2js = new X2JS();
+                var json = x2js.xml_str2json(data);
+                return json;
+            }})
             .then(function (data) {
                 return data.data;
             })

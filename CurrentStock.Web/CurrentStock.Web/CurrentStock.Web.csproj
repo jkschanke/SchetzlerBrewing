@@ -129,10 +129,10 @@
       <DependentUpon>app.css</DependentUpon>
     </Content>
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\Images\gingersnap.jpg" />
     <Content Include="Content\Images\kiwiexpressipa.jpg" />
     <Content Include="Content\Images\lederhosenhoptoberfest.jpg" />
-    <Content Include="Content\Images\peacecoffeestout.jpg" />
-    <Content Include="Content\Images\smashingpumpkin.jpg" />
+    <Content Include="Content\Images\peatsmokedporter.jpg" />
     <Content Include="Content\variables.css">
       <DependentUpon>variables.less</DependentUpon>
     </Content>
@@ -494,6 +494,7 @@
     <Content Include="Scripts\vendor\jquery-2.0.3.min.map" />
     <None Include="Scripts\_references.js" />
     <Content Include="Scripts\app.js" />
+    <Content Include="Scripts\xml2json.js" />
     <Content Include="Views\BoardGame.html" />
     <Content Include="Views\Jasmine\SpecRunner.cshtml" />
     <Content Include="apple-touch-icon-precomposed.png" />
