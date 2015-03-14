@@ -11,7 +11,7 @@ angular.module('app.services', [])
         ]
 
         instance.leftTap = {
-            name: 'Kiwi Express IPA', style: 'IPA', type: 'Extract', brewDate: '11/17/2014', originalGravity: 1.058, finalGravity: 1.011, description: 'Forget what you thought you knew about the flavors of IPA and travel with us to the south seas on the Kiwi Express! This exotic IPA uses only New Zealand hops to celebrate the southern hemisphere harvest!', icon: '/content/images/kiwiexpressipa.jpg'
+            
         }
 
         instance.middleTap = {
