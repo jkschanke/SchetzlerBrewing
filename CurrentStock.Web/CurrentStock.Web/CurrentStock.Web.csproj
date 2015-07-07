@@ -129,10 +129,10 @@
       <DependentUpon>app.css</DependentUpon>
     </Content>
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Content\Images\gingersnap.jpg" />
-    <Content Include="Content\Images\kiwiexpressipa.jpg" />
-    <Content Include="Content\Images\lederhosenhoptoberfest.jpg" />
+    <Content Include="Content\Images\dubbel.jpg" />
+    <Content Include="Content\Images\mosaic.jpg" />
     <Content Include="Content\Images\peatsmokedporter.jpg" />
+    <Content Include="Content\Images\permafrost.jpg" />
     <Content Include="Content\variables.css">
       <DependentUpon>variables.less</DependentUpon>
     </Content>

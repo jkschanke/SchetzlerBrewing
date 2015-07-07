@@ -7,19 +7,19 @@ angular.module('app.services', [])
         var instance = {};
 
         instance.bottles = [
-            { name: 'Lederhosen Hoptoberfest', style: 'Hybrid', type: 'Extract', brewDate: '11/11/2014', originalGravity: 1.060, finalGravity: 1.012, description: 'Created in the spirit of the annual festival in Munich, this hybrid beer is designed to be reminiscent of a traditional Marzen lager but fermented as an ale. The Kolsch yeast will retain a bit of lager character, especially if the fermentation temperature is kept on the low side - 60 to 65F is perfect. The use of Sterling hops provides a smooth bitterness, and just a hint of spicy hop flavor to mingle with this malt forward beer. This is a rapidly maturing beer, so you can enjoy this one a few weeks after brewing, and then ride out the autumn season sipping in style.', icon: '/content/images/lederhosenhoptoberfest.jpg', capCodes: ['H'] }
+            { name: 'Orange Chocolate Stout', style: 'Stout', type: 'All-Grain', brewDate: '05/06/2015', originalGravity: 1.045, finalGravity: 1.010, description: 'Stout brewed with orange peel and cocoa powder for a chocolatey finish. This kind of sucks, try at your own risk', icon: '/content/images/peatsmokedporter.jpg', capCodes: ['OC'] }
         ]
 
         instance.leftTap = {
-            
+            name: 'Permafrost White Inda White Ale', style: 'IPA', type: 'Extract', brewDate: '05/24/2015', originalGravity: 1.064, finalGravity: 1.014, description: 'This complex and hoppy brew will help you to navigate the doldrums of seemingly never ending winters. Developed with the pioneering spirit of American brewers, this White IPA melds old world tradition with the hoppy boldness of an American IPA.', icon: '/content/images/permafrost.jpg'
         }
 
         instance.middleTap = {
-            name: 'Peat Smoked Porter', style: 'Stout/Porter', type: 'Extract', brewDate: '01/04/2015', originalGravity: 1.062, finalGravity: 1.010, description: 'A midnight-black strong porter with an assertive profile: roasty, bitter, and big with underlying herbal, briny smoke character.', icon: '/content/images/peatsmokedporter.jpg'
+            name: 'Mosaic IPA', style: 'IPA', type: 'Extract', brewDate: '05/18/2015', originalGravity: 1.072, finalGravity: 1.015, description: 'Mosaic is the icon of single-hop complexity. Its kaleidoscope of tantalizing citrus, pine, tropical fruit, and berry notes decorate each golden-copper hued glass, alluding to an IPA recipe kit with many more varieties of hops. Capped in thick, ivory froth, a meticulous arrangement of malts lends subtle caramel sweetness to a modest, bready backbone. Mosaic bursts up from the depths in a prismatic eruption; each wave of evergreen grapefruit overwhelmed by sweeping pineapple-mango herbals . This spectral motif quiets into abstract bitterness for a smooth, refreshing, hop-forward finish.', icon: '/content/images/mosaic.jpg'
         }
 
         instance.rightTap = {
-            name: 'Ginger Snap Saison', style: 'Trappist/Belgian Ale', type: 'Extract', brewDate: '01/05/2015', originalGravity: 1.058, finalGravity: 1.004, description: 'Distinct undertones of Saison funk, exotic notes of verbena and candied ginger evolve into a firestorm of complex, earthy spice. Bursts of citrus peel collide with wild lemongrass and peppery florals in a tumultuous surge of flavor. \nAlight with lemony herbals of Sorachi Ace, the sweet caramelly malt profile offers a pleasant mouthfeel that develops lingering, gingery warmth. Highly carbonated and generously hopped, Ginger Snap finishes dry-yet-smooth with a quenching bite for superb, refreshing drinkability.', icon: '/content/images/gingersnap.jpg'
+            name: 'Belgian Dubbel', style: 'Trappist/Belgian Ale', type: 'Extract', brewDate: '03/01/2015', originalGravity: 1.062, finalGravity: 1.008, description: 'Trappist-style ale with a russet color, dense off-white head, and a host of flavors and aromas - spices, flowers, dried fruit, plums, raisins, rum, and toffee - arising from the interaction of grains, sugar, and yeast. A medium-full bodied, complex beer that pairs with everything from cheese to stew to dessert.', icon: '/content/images/dubbel.jpg'
         }
 
         return instance;
