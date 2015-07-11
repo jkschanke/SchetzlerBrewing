@@ -11,7 +11,7 @@ angular.module('app.services', [])
         ]
 
         instance.leftTap = {
-            name: 'Permafrost White Inda White Ale', style: 'IPA', type: 'Extract', brewDate: '05/24/2015', originalGravity: 1.064, finalGravity: 1.014, description: 'This complex and hoppy brew will help you to navigate the doldrums of seemingly never ending winters. Developed with the pioneering spirit of American brewers, this White IPA melds old world tradition with the hoppy boldness of an American IPA.', icon: '/content/images/permafrost.jpg'
+            name: 'Permafrost White India White Ale', style: 'IPA', type: 'Extract', brewDate: '05/24/2015', originalGravity: 1.064, finalGravity: 1.014, description: 'This complex and hoppy brew will help you to navigate the doldrums of seemingly never ending winters. Developed with the pioneering spirit of American brewers, this White IPA melds old world tradition with the hoppy boldness of an American IPA.', icon: '/content/images/permafrost.jpg'
         }
 
         instance.middleTap = {
