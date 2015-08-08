@@ -11,7 +11,7 @@ angular.module('app.services', [])
         ]
 
         instance.leftTap = {
-            name: 'Permafrost White India White Ale', style: 'IPA', type: 'Extract', brewDate: '05/24/2015', originalGravity: 1.064, finalGravity: 1.014, description: 'This complex and hoppy brew will help you to navigate the doldrums of seemingly never ending winters. Developed with the pioneering spirit of American brewers, this White IPA melds old world tradition with the hoppy boldness of an American IPA.', icon: '/content/images/permafrost.jpg'
+            name: 'Permafrost India White Ale', style: 'IPA', type: 'Extract', brewDate: '05/24/2015', originalGravity: 1.064, finalGravity: 1.014, description: 'This complex and hoppy brew will help you to navigate the doldrums of seemingly never ending winters. Developed with the pioneering spirit of American brewers, this White IPA melds old world tradition with the hoppy boldness of an American IPA.', icon: '/content/images/permafrost.jpg'
         }
 
         instance.middleTap = {
@@ -19,7 +19,7 @@ angular.module('app.services', [])
         }
 
         instance.rightTap = {
-            name: 'Belgian Dubbel', style: 'Trappist/Belgian Ale', type: 'Extract', brewDate: '03/01/2015', originalGravity: 1.062, finalGravity: 1.008, description: 'Trappist-style ale with a russet color, dense off-white head, and a host of flavors and aromas - spices, flowers, dried fruit, plums, raisins, rum, and toffee - arising from the interaction of grains, sugar, and yeast. A medium-full bodied, complex beer that pairs with everything from cheese to stew to dessert.', icon: '/content/images/dubbel.jpg'
+            name: 'Honey Kolsch', style: 'German Ale', type: 'Extract', brewDate: '06/29/2015', originalGravity: 1.048, finalGravity: 1.008, description: 'A variation on our extremely popular Kölsch recipe with the addition of honey and a new yeast strain for a lighter body and flavor. Like our original Kölsch kit, this recipe features a pale color, light body, and smooth mouthfeel. Honey adds subtle floral character and lightens the body by fermenting to dryness. Really nice as a summer brew for barbecues and picnics, or to wean your friends off watery mass-produced lagers.', icon: '/content/images/kolsch.jpg'
         }
 
         return instance;

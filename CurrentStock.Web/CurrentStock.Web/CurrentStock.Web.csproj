@@ -129,7 +129,7 @@
       <DependentUpon>app.css</DependentUpon>
     </Content>
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Content\Images\dubbel.jpg" />
+    <Content Include="Content\Images\kolsch.jpg" />
     <Content Include="Content\Images\mosaic.jpg" />
     <Content Include="Content\Images\peatsmokedporter.jpg" />
     <Content Include="Content\Images\permafrost.jpg" />
