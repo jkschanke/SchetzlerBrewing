@@ -7,15 +7,17 @@ angular.module('app.services', [])
         var instance = {};
 
         instance.bottles = [
-            { name: 'Orange Chocolate Stout', style: 'Stout', type: 'All-Grain', brewDate: '05/06/2015', originalGravity: 1.045, finalGravity: 1.010, description: 'Stout brewed with orange peel and cocoa powder for a chocolatey finish. This kind of sucks, try at your own risk', icon: '/content/images/peatsmokedporter.jpg', capCodes: ['OC'] }
+            { name: 'Orange Chocolate Stout', style: 'Stout', type: 'All-Grain', brewDate: '05/06/2015', originalGravity: 1.045, finalGravity: 1.010, description: 'Stout brewed with orange peel and cocoa powder for a chocolatey finish. This kind of sucks, try at your own risk', icon: '/content/images/peatsmokedporter.jpg', capCodes: ['OC'] },
+            { name: 'Speckled Heifer', style: 'American Pale Ale/Cream Ale', type: 'Partial Mash', brewDate: '07/27/2015', originalGravity: 1.044, finalGravity: 1.010, description: 'A tranquil time-out in a pint glass, a pastoral idyll, a sociable session ale dairyland-style: hey, sometimes a beer is just a beer. Have one.', icon: '/content/images/speckled heifer.jpg', capCodes: ['SH'] },
+            { name: 'Gaarden Hoe Witbier', style: 'Trappist/Belgian Ale, Wheat Beers', type: 'Extract', brewDate: '07/14/2015', originalGravity: 1.049, finalGravity: 1.010, description: 'The perfect pint after a hard day’s work, Gaarden Hoe is an ode to the historic and refreshing Belgian wit. Classic wheat is expertly tilled into a traditional pilsner malt bill and modest, grounded hop profile. Coriander and bitter orange peel offer slightly tart and citrusy undertones to quench even the most parched palate.', icon: '/content/images/garden hoe.jpg', capCodes: ['GH'] }
         ]
 
         instance.leftTap = {
-            name: 'Permafrost India White Ale', style: 'IPA', type: 'Extract', brewDate: '05/24/2015', originalGravity: 1.064, finalGravity: 1.014, description: 'This complex and hoppy brew will help you to navigate the doldrums of seemingly never ending winters. Developed with the pioneering spirit of American brewers, this White IPA melds old world tradition with the hoppy boldness of an American IPA.', icon: '/content/images/permafrost.jpg'
+            
         }
 
         instance.middleTap = {
-            name: 'Mosaic IPA', style: 'IPA', type: 'Extract', brewDate: '05/18/2015', originalGravity: 1.072, finalGravity: 1.015, description: 'Mosaic is the icon of single-hop complexity. Its kaleidoscope of tantalizing citrus, pine, tropical fruit, and berry notes decorate each golden-copper hued glass, alluding to an IPA recipe kit with many more varieties of hops. Capped in thick, ivory froth, a meticulous arrangement of malts lends subtle caramel sweetness to a modest, bready backbone. Mosaic bursts up from the depths in a prismatic eruption; each wave of evergreen grapefruit overwhelmed by sweeping pineapple-mango herbals . This spectral motif quiets into abstract bitterness for a smooth, refreshing, hop-forward finish.', icon: '/content/images/mosaic.jpg'
+            
         }
 
         instance.rightTap = {
